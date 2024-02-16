@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChatGPT-FarmHelper Backend</title>
-</head>
-
 <body>
 
     <h1>Welcome to the ChatGPT-FarmHelper backend repository!</h1>
@@ -69,5 +60,3 @@
     <p>Happy customizing with ChatGPT-FarmHelper! 🤖🌐</p>
 
 </body>
-
-</html>
