@@ -1,62 +1,56 @@
-<body>
+# ChatGPT-FarmHelper Backend
 
-    <h1>Welcome to the ChatGPT-FarmHelper backend repository!</h1>
-    <p>This backend is built using Express and Node.js, incorporating JOI for request validation and the OpenAI library for handling chat-based requests to GPT (Generative Pre-trained Transformer) based on your OpenAI account tier.</p>
+Welcome to the gpt-backend repository! This backend is built using Express and Node.js, incorporating JOI for request validation and the OpenAI library for handling chat-based requests to GPT (Generative Pre-trained Transformer) based on your OpenAI account tier.
 
-    <h2>Setup Instructions</h2>
+## Setup Instructions
 
-    <ol>
-        <li><strong>Clone the Repository:</strong>
-            <pre><code>git clone https://github.com/your-username/ChatGPT-FarmHelper-Backend.git</code></pre>
-        </li>
-        <li><strong>Navigate to the Project Directory:</strong>
-            <pre><code>cd ChatGPT-FarmHelper-Backend</code></pre>
-        </li>
-        <li><strong>Install Dependencies:</strong>
-            <pre><code>npm install</code></pre>
-        </li>
-        <li><strong>Set Up Environment Variables:</strong>
-            <ul>
-                <li>Copy the contents of the <code>env.example</code> file and create a new file named <code>.env</code>.</li>
-                <li>Add your OpenAI API key and any other necessary environment variables.</li>
-            </ul>
-        </li>
-        <li><strong>Start the Server:</strong>
-            <pre><code>npm start</code></pre>
-        </li>
-    </ol>
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/shashanksingh2002/gpt-backend.git
+    ```
 
-    <h2>Usage</h2>
+2. **Navigate to the Project Directory:**
+    ```bash
+    cd gpt-backend
+    ```
 
-    <p>Once the server is running, you can make requests to the chat endpoint to interact with GPT:</p>
+3. **Install Dependencies:**
+    ```bash
+    npm install
+    ```
 
-    <ul>
-        <li><strong>Endpoint:</strong> <code>/api/gpt</code></li>
-        <li><strong>Method:</strong> POST</li>
-        <li><strong>Body:</strong>
-            <pre><code>{
-  "model": "The gpt model you want to use",
-  "prompt": "user side prompt"
-}</code></pre>
-        </li>
-    </ul>
+4. **Set Up Environment Variables:**
+    - Copy the contents of the `.env.example` file and create a new file named `.env`.
+    - Add your OpenAI API key and any other necessary environment variables.
 
-    <h2>Customization</h2>
+5. **Start the Server:**
+    ```bash
+    npm start
+    ```
 
-    <p>This system is not limited to farm-related queries. You can customize the behavior by changing the system prompt present in the constant folder. Modify the system prompt to suit your use case and make the GPT work however you want!</p>
+## Usage
 
-    <h2>OpenAI Account Tier</h2>
+Once the server is running, you can make requests to the chat endpoint to interact with GPT:
 
-    <p>Ensure that your OpenAI account tier supports the features used in this backend. Adjust your account settings accordingly to meet the requirements.</p>
+- **Endpoint:** `/api/gpt`
+- **Method:** POST
+- **Body:**
+  ```json
+  {
+    "model":"your gpt model name",
+    "prompt": "Your message to GPT"
+  }
 
-    <h2>Contributing</h2>
+## Customization
 
-    <p>Feel free to contribute to the project by submitting issues or pull requests. We appreciate your feedback and help in making this backend more robust.</p>
+This system is not limited to farm-related queries. You can customize the behavior by changing the system prompt present in the constant folder. Modify the system prompt to suit your use case and make the GPT work however you want!
 
-    <h2>License</h2>
+## OpenAI Account Tier
 
-    <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
+Ensure that your OpenAI account tier supports the features used in this backend. Adjust your account settings accordingly to meet the requirements.
 
-    <p>Happy customizing with ChatGPT-FarmHelper! 🤖🌐</p>
+## Contributing
 
-</body>
+Feel free to contribute to the project by submitting issues or pull requests. We appreciate your feedback and help in making this backend more robust.
+
+Happy customizing with gpt-backend! 🤖🌐
