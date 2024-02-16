@@ -1,4 +1,4 @@
-# ChatGPT-FarmHelper Backend
+# GPT-Backend
 
 Welcome to the gpt-backend repository! This backend is built using Express and Node.js, incorporating JOI for request validation and the OpenAI library for handling chat-based requests to GPT (Generative Pre-trained Transformer) based on your OpenAI account tier.
 
